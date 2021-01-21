@@ -9,3 +9,8 @@ h1 {
 .carousel-inner img {
     margin: auto;
   }
+
+h5, p {
+    color: black;
+    font-weight: bold;
+}
