@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-color: #95A5A6;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -19,21 +19,18 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    text-align: center;
-}
-
 .proj1,
 .proj2,
 .proj3 { 
-    flex-basis: auto;
+    flex-grow: 1;
+
 }
 
 /* Carousel Section */
 
 .carousel-control-prev,
 .carousel-control-next {
-    background-color: grey;
+    background-color: #95A5A6;
 }
 
 .carousel-inner img {
