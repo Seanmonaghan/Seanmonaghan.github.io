@@ -1,36 +1,84 @@
+
+/*
+Fonts: 
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Martel', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans JP', sans-serif; */
+
+.navbar-custom { 
+    background-color: #222831; 
+} 
+
 body {
-    background-color: #95A5A6;
-    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #30475e;
 }
 
-h1 {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
+.list-group {
+    margin: auto auto;
 }
 
 
-/* Project Section  */
+/* Index Page  */
 
-.projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 40px;
+.heading {
     text-align: center;
 }
 
-.proj1,
-.proj2,
-.proj3 { 
-    flex-grow: 1;
-
+.heading h1 {
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    color: #f8f1f1;
+    letter-spacing: 4px;
+    padding: 50px;
+    font-size: 60px;
 }
 
-/* Carousel Section */
+#portjumbo {
+    margin-bottom: 20px;
+}
 
-.carousel-control-prev,
-.carousel-control-next {
-    background-color: #95A5A6;
+
+.caption p {
+    color:  #f8f1f1;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 100px;
+}
+
+
+.heading h2 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #f8f1f1; 
+    font-size: 25px;
+}
+
+.heading h3 {
+    color: #f8f1f1; 
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Card - Contacts */
+
+.card {
+    width: 18rem;
+    text-align: center;
+    background-color: #30475e;
+    border: none;
+    font-family: 'Merriweather', serif;
+    color: #f8f1f1;
+}
+
+
+/* Carousel CSS */
+
+.carodiv {
+    margin-top: 50px;
 }
 
 .carousel-inner img {
@@ -38,14 +86,110 @@ h1 {
     object-fit: cover;
   }
 
-  .carousel .carousel-item {
-    height: 500px;
+.carousel .carousel-item {
+    height: 400px;
   }
 
 
-h5, p {
-    color: black;
+.carousel-caption p {
+    color: #f8f1f1; 
     font-size: 1.5rem;
     font-weight: bold;
     -webkit-text-stroke: 1px black;
+    background-color:hsla(252, 9%, 5%, 0.25)
+}
+
+.carousel-caption h5 {
+    color: #f8f1f1; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    background-color:hsla(252, 9%, 5%, 0.25)
+}
+
+/* Form - Contact */
+
+.single h2 {
+    color:#f8f1f1;
+    text-align: center;
+}
+
+/* Projects Section */
+
+
+a {
+    color: #f8f1f1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+
+.projects {
+    margin-bottom: 150px;
+}
+
+/* Jumbotron Section */
+
+.jumbotron {
+    margin-bottom: 100px;
+}
+
+/* Footer Section */
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    margin-bottom: 200px; /* Margin bottom by footer height */
+  }
+  .footer {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    height: 50px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    text-align: center;
+  }
+
+
+h4 {
+    font-family: 'Martel', serif;
+    font-size: 15px;
+    color: white;
+}
+
+.subtext {
+    font-size: 12px;
+}
+
+/* Contact List  */
+
+.list-group-item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.banner-image {
+    width: 600px;
+    height: 400px;
+    padding: 50px;
+}
+
+
+li a{
+    display:block;
+    color: #222831;  
+}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
 }
