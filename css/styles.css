@@ -9,11 +9,11 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Sans JP', sans-serif; */
 
 .navbar-custom { 
-    background-color: #222831; 
+    background-color: #0e192b; 
 } 
 
 body {
-    background-color: #30475e;
+    background-color: #687f96;
 }
 
 .list-group {
@@ -69,7 +69,7 @@ body {
 .card {
     width: 18rem;
     text-align: center;
-    background-color: #30475e;
+    background-color: #687f96;
     border: none;
     font-family: 'Merriweather', serif;
     color: #f8f1f1;
