@@ -1,5 +1,6 @@
 
 /*
+
 Fonts: 
 font-family: 'Alfa Slab One', cursive;
 font-family: 'Martel', serif;
@@ -192,4 +193,8 @@ img {
     max-width: 100%;
     height: auto;
     width: auto\9;
+}
+
+.form-control {
+    width: none;
 }
