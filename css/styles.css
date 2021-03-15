@@ -82,12 +82,14 @@ body {
 }
 
 .carousel-inner img {
+    display: block;
+    width: 100%;
+    height: auto;
     margin: auto;
-    object-fit: cover;
 }
 
 .carousel .carousel-item {
-    height: 400px;
+    /* height: 400px; */
 }
 
 
@@ -114,8 +116,11 @@ body {
     text-align: center;
 }
 
-/* Projects Section */
 
+
+
+
+/* Projects Section */
 
 a {
     color: #f8f1f1;
@@ -131,11 +136,19 @@ a:hover {
     margin-bottom: 150px;
 }
 
+
+
+
+
 /* Jumbotron Section */
 
 .jumbotron {
     margin-bottom: 100px;
 }
+
+
+
+
 
 /* Footer Section */
 
@@ -171,6 +184,10 @@ h4 {
     font-size: 12px;
 }
 
+
+
+
+
 /* Contact List  */
 
 .list-group-item {
@@ -195,12 +212,16 @@ li a {
     font-size: 14px;
 }
 
+
+
+
+
 /* Images */
 
 img {
     max-width: 100%;
     height: auto;
-    width: auto\9;
+    width: auto;
 }
 
 .form-control {
